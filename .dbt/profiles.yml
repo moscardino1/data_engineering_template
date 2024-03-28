@@ -1,0 +1,12 @@
+dep:
+  outputs:
+    dev:
+      dbname: transactions_db
+      host: localhost
+      pass: mysecretpassword
+      port: 5432
+      schema: public
+      threads: 1
+      type: postgres
+      user: postgres
+  target: dev
